@@ -1,0 +1,6 @@
+a&lt;-c(1,2,3)
+b&lt;-c(4,5,6)
+c&lt;-c(7,8,9)
+m&lt;-cbind(a,b,c)
+print(&quot;Content of the said matrix:&quot;)
+print(m)
