@@ -1,0 +1,19 @@
+prime_numbers &lt;- function(n) {
+if (n &gt;= 2) {
+x = seq(2, n)
+prime_nums = c()
+for (i in seq(2, n)) {
+if (any(x == i)) {
+prime_nums = c(prime_nums, i)
+x = c(x[(x %% i) != 0], i)
+}
+}
+return(prime_nums)
+
+}
+else
+{
+stop(&quot;Input number should be at least 2.&quot;)
+}
+}
+prime_numbers(12)
