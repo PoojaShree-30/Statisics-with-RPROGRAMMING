@@ -1,0 +1,4 @@
+v = sample(-50:50, 10, replace=TRUE)
+print(&quot;Content of the vector:&quot;)
+print(&quot;10 random integer values between -50 and +50:&quot;)
+print(v)
