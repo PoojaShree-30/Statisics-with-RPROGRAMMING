@@ -1,0 +1,6 @@
+str1 = &quot;HELLO WORLDD&quot;
+print(&quot;Original vector(string)&quot;)
+print(str1)
+
+print(&quot;Unique elements&quot;)
+print(unique(tolower(str1)))
