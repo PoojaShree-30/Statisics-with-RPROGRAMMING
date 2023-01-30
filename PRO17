@@ -1,0 +1,10 @@
+a = array(
+6:30,
+dim = c(4, 3, 2),
+dimnames = list(
+c(&quot;Row1&quot;, &quot;Row2&quot;, &quot;Row3&quot;,&quot;Row4&quot;),
+c(&quot;Col1&quot;, &quot;Col2&quot;, &quot;Col3&quot;),
+c(&quot;Part1&quot;, &quot;Part2&quot;)
+)
+)
+print(a)
