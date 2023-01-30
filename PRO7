@@ -1,0 +1,6 @@
+for (n in 1:100) {
+if (n %% 3 == 0 &amp; n %% 5 == 0) {print(&quot;FizzBuzz&quot;)}
+else if (n %% 3 == 0) {print(&quot;Fizz&quot;)}
+else if (n %% 5 == 0) {print(&quot;Buzz&quot;)}
+else print(n)
+}
