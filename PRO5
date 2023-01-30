@@ -1,0 +1,6 @@
+Fibonacci &lt;- numeric(10)
+Fibonacci[1] &lt;- 0
+Fibonacci[2] &lt;- 1
+for (i in 3:10) Fibonacci[i] &lt;- Fibonacci[i - 2] + Fibonacci[i - 1]
+print(&quot;First 10 Fibonacci numbers:&quot;)
+print(Fibonacci)
