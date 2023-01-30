@@ -1,0 +1,9 @@
+print_factors = function(n) {
+print(paste(&quot;The factors of&quot;,n,&quot;are:&quot;))
+for(i in 1:n) {
+if((n %% i) == 0) {
+print(i)
+}
+}
+}
+print_factors(6)
