@@ -1,0 +1,4 @@
+AEP = read.csv(file=&quot;C:/Users/Admin/Downloads/annual-enterprise-survey-
+2021-financial-year-provisional-csv.csv&quot;, header=TRUE, sep=&quot;,&quot;)
+print(&quot;Content of the .csv file:&quot;)
+print(AEP)
