@@ -1,0 +1,4 @@
+#print(&quot;Empty plot:&quot;)
+plot.new()
+#print(&quot;Empty plot specify the axes limits of the graphic:&quot;)
+plot(1, type=&quot;n&quot;, xlab=&quot;x-axis&quot;, ylab=&quot;yaxis&quot;, xlim=c(0, 20), ylim=c(0, 20))
