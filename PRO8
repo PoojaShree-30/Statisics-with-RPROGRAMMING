@@ -1,0 +1,10 @@
+print(&quot;First 10 letters in lower case:&quot;)
+t = head(letters, 10)
+print(t)
+print(&quot;Last 10 letters in upper case:&quot;)
+t = tail(LETTERS, 10)
+print(t)
+print(&quot;Letters between 22nd to 24th letters in upper case:&quot;)
+
+e = tail(LETTERS[22:24])
+print(e)
