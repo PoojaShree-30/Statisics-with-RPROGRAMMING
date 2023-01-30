@@ -1,0 +1,3 @@
+name &lt;- readline(prompt=&quot;Input your name: &quot;)
+age &lt;- readline(prompt=&quot;Input your age: &quot;)
+print(paste(&quot;My name is&quot;,name, &quot;and I am&quot;,age ,&quot;years old.&quot;))
